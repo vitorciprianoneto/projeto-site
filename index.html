@@ -10,12 +10,23 @@
     <header>
         <nav>
             <a href="index.html"><img src="Logo/Logo.svg" alt="Logo da loja Marketplace."></a>
+            <form action="" method="get">
+                <label for="barra-pesquisar" class="label-oculto">Pesquisar:</label>
+                <input type="text" name="Pesquisar" id="barra-pesquisar" placeholder="O que deseja encontrar?" autocomplete="off">
+                <!--tag <button>: mais flexível; permite inserir outros elementos HTML e oferece mais controle na estilização.-->
+                    <button type="submit"><img src="icones/icone-search.svg" alt="Ícone de lupa/pesquisa."></button>
+            </form>
+            
             <ul>
-                <li><a href="#">Meus Pedidos</a></li>
-                <li><a href="#">Meu Carrinho</a></li>
+                <li><a href="#" rel="nex">Meus Pedidos</a></li>
+                <li><a href="#" rel="nex">Meu Carrinho</a></li>
                 <li><a href="#">Entre</a></li>
             </ul>
         </nav>
+
+        <div>
+            <a href="#"><img src="icones/icone-menu.svg" alt="Ícone de menu.">Todas as categorias</a>
+        </div>
     </header>
     <main>
         <section>
@@ -54,7 +65,8 @@
                 </div>
             </article>
             <article>
-                <div><img src="imagens-produtos/caderno-sem-pauta.svg" alt="Imagem do produto: Caderno sem pauta aberto."></div>
+                <div><img src="imagens-produtos/caderno-sem-pauta.svg" alt="Imagem do produto: Caderno sem pauta aberto.">
+                </div>
                 <div>
                     <h3 class="produto-titulo">Caderno s/ pauta</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, debitis?</p>
@@ -63,7 +75,8 @@
             </article>
         
             <article>
-                <div><img src="imagens-produtos/pote-vidro.svg" alt="Imagem do produto: Pote de vidro pequeno."></div>
+                <div><img src="imagens-produtos/pote-vidro.svg" alt="Imagem do produto: Pote de vidro pequeno.">
+                </div>
                 <div>
                     <h3 class="produto-titulo">Pote de Vidro pequeno</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, dolorum.</p>
@@ -71,7 +84,8 @@
                 </div>
             </article>
             <article>
-                <div><img src="imagens-produtos/smartphone.svg" alt="Imagem do produto: Smartphone em cima de uma mesa branca"></div>
+                <div><img src="imagens-produtos/smartphone.svg" alt="Imagem do produto: Smartphone em cima de uma mesa branca">
+                </div>
                 <div>
                     <h3 class="produto-titulo">Smartphone</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, obcaecati.</p>
@@ -79,7 +93,8 @@
                 </div>
             </article>
             <article>
-                <div><img src="imagens-produtos/cd.svg" alt=""></div>
+                <div><img src="imagens-produtos/cd.svg" alt="">
+                </div>
                 <div>
                     <h3 class="produto-titulo">Álbum-CD VALORANT</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, expedita!</p>
@@ -91,10 +106,10 @@
     <footer id="rodape">
         <div>
             <ul>
-                <li><a href="#"><img src="icones/icone-facebook.svg" alt="Logo da rede social Facebook.">Facebook</a></li>
-                <li><a href="#"><img src="icones/icone-instagram.svg" alt="Logo da rede social Instagram.">Instagram</a></li>
-                <li><a href="#"><img src="icones/icone-twiter.svg" alt="Logo da rede social Twitter/X.">Twitter/X</a></li>
-                <li><a href="#"><img src="icones/icone-tiktok.svg" alt="Logo da rede social Titok.">Tiktok</a></li>
+                <li><a href="#" target="_blank" hreflang="Pt-br" rel="external"><img src="icones/icone-facebook.svg" alt="Logo da rede social Facebook.">Facebook</a></li>
+                <li><a href="#" target="_blank" hreflang="Pt-br" rel="external"><img src="icones/icone-instagram.svg" alt="Logo da rede social Instagram.">Instagram</a></li>
+                <li><a href="#" target="_blank" hreflang="Pt-br" rel="external"><img src="icones/icone-twiter.svg" alt="Logo da rede social Twitter/X.">Twitter/X</a></li>
+                <li><a href="#" target="_blank" hreflang="Pt-br" rel="external"><img src="icones/icone-tiktok.svg" alt="Logo da rede social Titok.">Tiktok</a></li>
             </ul>
         </div>
     </footer>

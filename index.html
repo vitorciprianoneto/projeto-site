@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marketplace</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header>
+    <header id="#volta-topo">
         <nav>
-            <a href="index.html"><img src="Logo/Logo.svg" alt="Logo da loja Marketplace."></a>
+            <a href="index.html"><img src="logo/Logo-branco.svg" alt="Logo da loja Marketplace."></a>
             <form action="" method="get">
                 <label for="barra-pesquisar" class="label-oculto">Pesquisar:</label>
                 <input type="text" name="Pesquisar" id="barra-pesquisar" placeholder="O que deseja encontrar?" autocomplete="off">
@@ -18,9 +18,9 @@
             </form>
             
             <ul>
-                <li><a href="#" rel="nex">Meus Pedidos</a></li>
-                <li><a href="#" rel="nex">Meu Carrinho</a></li>
-                <li><a href="#">Entre</a></li>
+                <li><a href="#" rel="nex"><img src="icones/icone-caixa-b.svg" alt="Ícone de uma caixa.">Meus Pedidos</a></li>
+                <li><a href="#" rel="nex"><img src="icones/icone-carrinho-de-compras-b.svg" alt="Ícone de um carrinho de compras.">Meu Carrinho</a></li>
+                <li><a href="#"><img src="icones/icone-usuario-b.svg" alt="Ícone de usuário">Entre</a></li>
             </ul>
         </nav>
 
@@ -93,7 +93,7 @@
                 </div>
             </article>
             <article>
-                <div><img src="imagens-produtos/cd.svg" alt="">
+                <div><img src="imagens-produtos/cd.svg" alt="Imagem do produto: CD/Álbum de músicas da banda VALORANT.">
                 </div>
                 <div>
                     <h3 class="produto-titulo">Álbum-CD VALORANT</h3>
@@ -103,14 +103,39 @@
             </article>
         </section>
     </main>
-    <footer id="rodape">
-        <div>
+    <a href=""><img src="icones/icone-voltar-topo.svg" alt="Ícone de Seta; voltar ao topo da página.">Voltar ao topo</a>
+    <footer>
+        <div class="rodape-links">
             <ul>
+                <li>
+                    <h4>Sobre a Marketplace</h4>
+                    <a href="#">Segurança e privacidade</a>
+                    <a href="#">Central de ajuda</a>
+                    <a href="#">Contato</a>
+                </li>
+
+                <li>
+                    <h4>Métodos de pagamento</h4>
+                    <a href="#">Ofertas relâmpago</a>
+                    <a href="#">Como comprar</a>
+                </li>
+
+                <li>
+                    <h4>Formas de pagamento aceitas</h4>
+                    <p>VISA, Mastercard, PIX e Boleto bancário.</p>
+                </li>
+
                 <li><a href="#" target="_blank" hreflang="Pt-br" rel="external"><img src="icones/icone-facebook.svg" alt="Logo da rede social Facebook.">Facebook</a></li>
                 <li><a href="#" target="_blank" hreflang="Pt-br" rel="external"><img src="icones/icone-instagram.svg" alt="Logo da rede social Instagram.">Instagram</a></li>
                 <li><a href="#" target="_blank" hreflang="Pt-br" rel="external"><img src="icones/icone-twiter.svg" alt="Logo da rede social Twitter/X.">Twitter/X</a></li>
                 <li><a href="#" target="_blank" hreflang="Pt-br" rel="external"><img src="icones/icone-tiktok.svg" alt="Logo da rede social Titok.">Tiktok</a></li>
             </ul>
+           
+        </div> 
+
+        <div class="rodape-descricao">
+                <img src="logo/Logo-branco.svg" alt="Ícone da Marketplace; e direitos da página.">
+                <p>| 2024.Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
